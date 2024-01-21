@@ -1,0 +1,43 @@
+.card-container {
+  box-sizing: content-box;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  border: 0.3px solid gray;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  box-shadow: 1px 1px transparent;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.card-house-color {
+  display: flex;
+  min-width: 70%;
+  border-radius: 6px;
+  padding: 1px;
+  justify-self: center;
+  min-height: 20px;
+}
+.house-owner-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.text-large {
+  font: verdana;
+  font-weight: bold;
+  font-size: 23px;
+}
+.text-small {
+  font: verdana;
+}
